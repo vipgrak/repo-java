@@ -20,6 +20,7 @@ public class Lessen_3 {
         square();
         input();
         output();
+        printValue();
 
 }
 
@@ -87,6 +88,15 @@ public class Lessen_3 {
         }
         System.out.println("min =" + min);
         System.out.println("max =" + max);
+    }
+    // Задание_7
+    public static void printValue(){
+        int[] mass6 ={1,1,1,2,1};
+        int a = mass6[0] + mass6[1] + mass6[2];
+        int b = mass6[3] + mass6[4];
+        for (int i = 0; i < mass6.length; i++);
+      boolean sum = (a == b);
+      System.out.println(sum);
     }
 
     }
